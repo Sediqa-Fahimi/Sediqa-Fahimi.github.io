@@ -62,6 +62,7 @@
 							@include vendor('transition-delay', '#{(_duration(activation) * 0.2 * $i) + (_duration(activation) * 0.25)}');
 						}
 					}
+				
 				}
 			}
 
@@ -125,6 +126,7 @@
 					li {
 						@include vendor('transform', 'translateY(2em)');
 						opacity: 0;
+				
 					}
 				}
 			}
@@ -163,6 +165,7 @@
 						line-height: inherit;
 						margin: 0 0 0 2em;
 						padding: 0;
+						
 					}
 				}
 
