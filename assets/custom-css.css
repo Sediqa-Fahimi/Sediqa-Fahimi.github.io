@@ -2,3 +2,18 @@
     width: 200px;
     height: 250px;
 }
+
+.adjust-box{
+    height: 400px;
+    width: 384px;
+    /* border: 1px solid red; */
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+.no-padding > img{
+    height: 275px;
+    box-sizing: border-box;
+    width: 383.300px;
+    padding-left: 2px;
+    /* border: 1px solid green; */
+}
