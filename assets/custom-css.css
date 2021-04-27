@@ -1,7 +1,12 @@
 .small-box{
-    width: 200px;
-    height: 250px;
+    width: 160px;
+    height: 180px;
 }
+.small-box > h3{
+    font-size: 18px;
+    /* border: 1px solid black; */
+}
+
 
 .adjust-box{
     height: 400px;
@@ -16,4 +21,10 @@
     width: 383.300px;
     padding-left: 2px;
     /* border: 1px solid green; */
+}
+
+.col-12-small{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-around;
 }
