@@ -7,9 +7,12 @@
     /* border: 1px solid black; */
 }
 
-
+.with-padding{
+    /* border: 1px solid red; */
+    height: 460px;
+}
 .adjust-box{
-    height: 400px;
+    /* height: 400px; */
     width: 400px;
     /* border: 1px solid red; */
     box-sizing: border-box;
